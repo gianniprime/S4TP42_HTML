@@ -1,13 +1,33 @@
-# S4TP42_HTML
-note utilisation github
+# Projet 1 - S4TP42_HTML - 2024
+<img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/><img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/><img src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white"/>
 
+
+## Description du projet d'étude et mission
+Ce tp doit me permettre d’utiliser les langages HTML, CSS, JavaScript et m'initier à la création de site web simple.
+Je doit réaliser mon propre site. Ce site doit comporter :
+
+- Des images,
+- Des tableaux,
+- Des liens,
+- Du texte,
+- Des illustrations.
+
+Le sujet du site devra être lié à l’une de mes passions (sports musiques loisirs…)
+
+## Outils d'apprentissage / sources utilisés
+
+- Openclassroom
+- Git / GitHub
+- Youtube
+- Exercice pour apprendre FlexBox css : [FlexboxFroggy](https://flexboxfroggy.com/#fr)  
+
+## Note perso
 verification => git status
 
 1 - enregistre les modification  T => git add .
 2 - nomme le commit => git commit -m "......."
 3 - envoye sur le ripo => git push
 
+## Licence
 
-
-
-Exercice pour apprendre FlexBox css : https://flexboxfroggy.com/#fr
+<img src='https://forthebadge.com/images/badges/open-source.svg' />
