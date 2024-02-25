@@ -1,3 +1,71 @@
-body{
-    color: #313131;
+
+* {
+    /* box-sizing = on definit de quel maniere un element est calculer */
+    box-sizing: border-box;
+    /* ici j'enlève tout les marges à toutes les balises de la page,  */
+    margin: 0;
+    padding: 0;
 }
+
+body{}
+
+/* Section Header */
+.sectionHeader{
+    /* height à 100% de l'écran */
+    height: 100vh;
+    /* style du background */
+    background: url('../images/gym-1.jpg');
+    background-position: center;
+    background-size: cover;
+    /* marges interieur de la balise */
+    padding: 50px;
+    /* flexbox */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header__content{
+    color: #ffffff;
+    padding: 50px 25px;
+    /* line-height = je gere les interlignes du texte */
+    line-height: 1;
+}
+
+.titleHeader{
+    /* font-size = taille du texte */
+    font-size: 40px;
+    /* Uppercase = je transforme les lettres en majuscule */
+    text-transform: uppercase;
+    /* je rajoute une marge en bas de la balise */
+    margin-bottom: 15px;
+}
+
+.texteHeader{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.buttonHeader{
+    /* j'enlève le soulignement des liens */
+    text-decoration: none;
+    color: #ffffff;
+    background: red;
+    /* font-size = taille du texte */
+    font-size: 23px;
+    padding: 10px;
+    /* j'enlève la bordure du bouton */
+    border: none;
+    /* cursor = style du curseur de la souris */
+    cursor: pointer;
+    /* j'enlève le style de la bordure */
+    outline: none;
+    /* animation survole de la souris */
+    transition: 0.3s ease;
+    /* j'arondie les angles du bouton */
+    /* border-radius: 0 0 4px 10px; */
+    border-radius: 4px;
+}
+
+

@@ -19,14 +19,17 @@ Le sujet du site devra être lié à l’une de mes passions (sports musiques lo
 - Openclassroom
 - Git / GitHub
 - Youtube
-- Exercice pour apprendre FlexBox css : [FlexboxFroggy](https://flexboxfroggy.com/#fr)  
+- Exercice pour apprendre FlexBox css : [FlexboxFroggy](https://flexboxfroggy.com/#fr)
+- Images libre de droit recuperer sur le site Pexels
+- Lien documentation FlexBox css : [Flexbox css-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)  
+- source pour la mise en place du style css[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height)
 
 ## Note perso
-verification => git status
+- verification => git status
 
-1 - enregistre les modification  T => git add .
-2 - nomme le commit => git commit -m "......."
-3 - envoye sur le ripo => git push
+- 1 enregistre les modification  T => git add .
+- 2 nomme le commit => git commit -m "......."
+- 3 envoye sur le ripo => git push
 
 ## Licence
 
