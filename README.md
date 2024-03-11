@@ -25,6 +25,8 @@ Le sujet du site devra être lié à l’une de mes passions (sports musiques lo
 - source pour la mise en place du style css[developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height)
 
 ## Note perso
+- si on veut clone mon repo :
+git clone "+ liens dans l'onglet code en haut à droite"
 - verification => git status
 
 - 1 enregistre les modification  T => git add .
