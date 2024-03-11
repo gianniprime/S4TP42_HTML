@@ -68,4 +68,7 @@ body{}
     border-radius: 4px;
 }
 
-
+.wrapperButton {
+    display: flex;
+    justify-content: space-between;
+}
