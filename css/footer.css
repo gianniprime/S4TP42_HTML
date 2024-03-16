@@ -1,0 +1,40 @@
+/* ============================================================================================== */
+/* ====================================  FOOTER STYLES  ========================================= */
+/* ============================================================================================== */
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #000000;
+    border-top: 2px solid #313131;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    max-width: 100%;
+    bottom: 0;
+}
+.box-1{
+    color: #ffffff;
+}
+.box-1_title{
+    font-size: 25px;
+    font-weight: bolder;
+    color: red;
+}
+.box-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    color: red;
+    font-size: 35px;
+}
+.fa-brands:hover {
+    color: #ffffff;
+}
+.link-red {
+    color: red;
+}
+.link-red:hover{
+    color: #ffffff;
+}

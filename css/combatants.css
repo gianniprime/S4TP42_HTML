@@ -1,0 +1,39 @@
+/* ============================================================================================== */
+/* ====================================  COMBATANTS STYLES  ========================================= */
+/* ============================================================================================== */
+
+#combatants{
+    /* 100 VH = 100% DE LA TAILLE DE L'ECRAN*/
+    min-height: 100vh;
+    background-color: #000000;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.fighterSection{
+    display: flex;
+    align-items: center;
+    
+}
+#tableau {
+    margin-top: 20px;
+    background-color: #ffffffc1;
+    border-collapse: collapse;
+    width: 100%;
+    min-height: 80vh;
+
+}
+#tableau thead {
+    border-bottom: 3px solid #000000;
+    color: #8c0000;
+    font-size: 25PX;
+}
+#tableau tr {
+    height: 20px;
+}
+#tableau td {
+    font-weight: bold;
+    border-left: 1px solid #525252;
+    border-right: 1px solid #525252;
+    border-bottom: 1px solid #525252;
+    text-align: center;
+}
