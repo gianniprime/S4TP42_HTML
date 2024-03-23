@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/quiz.css">
     <script src="https://kit.fontawesome.com/ed840bcf74.js" crossorigin="anonymous"></script>
     <title>quiz</title>
 </head>
@@ -15,15 +16,16 @@
         <a href="../index.html" class="navbar__logo">MixedMartialArt</a>
         <div class="navbar__menu">
             <a href="./combatants.html" class="navbar__link">Combatant</a>
-            <a href="/quiz.html" class="navbar__link">Quiz</a>
+            <a href="./presentation.html" class="navbar__link">presentation</a>
             <a href="#footer" class="navbar__link link-red">Contact</a>
         </div>
     </nav>
     <!-- SECTION QUIZ -->
-    <header class="sectionHeader">
-        <div class="header__content">
+    <header class="sectionHeader" >
+        <div class="header__content" id="clickEvent">
             <h1 class="titleHeader">Quiz sur le MMA</h1>
-            <p class="texteHeader">Pertit quiz sur le MMA</p>
+            <p class="texteHeader" id="quizJs">Pertit quiz sur le MMA</p>
+            <button class="button" id="buttonClick"> click on</button>
         </div> 
     </header>
     <!-- FOOTER -->
@@ -52,4 +54,5 @@
         </div>
     </footer>
 </body>
+<script src="../js/quiz.js"></script>
 </html>
