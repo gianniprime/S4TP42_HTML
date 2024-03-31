@@ -22,11 +22,136 @@
     </nav>
     <!-- SECTION QUIZ -->
     <header class="sectionHeader" >
-        <div class="header__content" id="clickEvent">
-            <h1 class="titleHeader">Quiz sur le MMA</h1>
-            <p class="texteHeader" id="quizJs">Pertit quiz sur le MMA</p>
-            <button class="button" id="buttonClick"> click on</button>
-        </div> 
+        <div class="contenairQuiz">
+            <div class="divBtnChoice" id="buttonChoixQuiz">
+                <div>
+                    <button class="btnChoice" type="button" onclick="choixDuQuiz(1)">Facile</button>
+                    <button class="btnChoice" type="button" onclick="choixDuQuiz(2)">Moyen</button>
+                    <button class="btnChoice" type="button" onclick="choixDuQuiz(3)">Difficile</button>
+                </div>
+            </div>
+    
+            <div class="containerScore" id="scoreContainer" >
+                <div class="divScore">
+                    <p class="scoreText">votre score et de : </p> 
+                    <p class="resultatQuiz"><span id="scoreSpan">0</span> / 5</p>
+                </div>
+            </div>
+    
+            <div class="containerQuestions" id="containerQuestions">
+    
+                <fieldset id="idFieldset1">
+                    <legend class="legendeQuestion">Questions 1:</legend>
+                    <div>
+                        <p class="questionText" id="labelQuestion1"></p>
+                    </div>
+                    <div>
+                        <input type="radio" id="innputQuestion1Choix1" value="choix 1"/>
+                        <label class="labelQuestion" for="innputQuestion1Choix1" id="labelQuestion1choix1"></label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" id="innputQuestion1Choix2" value="choix 2"/>
+                        <label class="labelQuestion" for="innputQuestion1Choix2" id="labelQuestion1choix2">question 1 choix 2</label>
+                    </div>
+    
+                    <div>
+                        <input type="radio" id="innputQuestion1Choix3" value="choix 3"/>
+                        <label class="labelQuestion" for="innputQuestion1Choix3" id="labelQuestion1choix3">question 1 choix 3</label>
+                    </div>
+                    
+                </fieldset>
+                
+                <fieldset id="idFieldset2">
+                    <legend class="legendeQuestion">Questions 2:</legend>
+                    <div>
+                        <p class="questionText" id="labelQuestion2">Bonjour question 2</p>
+                    </div>
+                    <div>
+                        <input type="radio" id="innputQuestion2Choix1" value="choix 1"/>
+                        <label class="labelQuestion" for="innputQuestion2Choix1" id="labelQuestion2choix1"> question 2 choix 1</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" id="innputQuestion2Choix2" value="choix 2"/>
+                        <label class="labelQuestion" for="innputQuestion2Choix2" id="labelQuestion2choix2"> question 2 choix 2</label>
+                    </div>
+    
+                    <div>
+                        <input type="radio" id="innputQuestion2Choix3" value="choix 3"/>
+                        <label class="labelQuestion" for="innputQuestion2Choix3" id="labelQuestion2choix3"> question 2 choix 3</label>
+                    </div>
+                    
+                </fieldset>
+    
+                <fieldset id="idFieldset3">
+                    <legend class="legendeQuestion">Questions 3:</legend>
+                    <div>
+                        <p class="questionText" id="labelQuestion3">Bonjour question 3</p>
+                    </div>
+                    <div>
+                        <input type="radio" id="innputQuestion3Choix1" value="choix 1"/>
+                        <label class="labelQuestion" for="innputQuestion3Choix1" id="labelQuestion3choix1"> question 3 choix 1</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" id="innputQuestion3Choix2" value="choix 2"/>
+                        <label class="labelQuestion" for="innputQuestion3Choix2" id="labelQuestion3choix2"> question 3 choix 2</label>
+                    </div>
+    
+                    <div>
+                        <input type="radio" id="innputQuestion3Choix3" value="choix 3"/>
+                        <label class="labelQuestion" for="innputQuestion3Choix3" id="labelQuestion3choix3"> question 3 choix 3</label>
+                    </div>
+                    
+                </fieldset>
+    
+                <fieldset id="idFieldset4">
+                    <legend class="legendeQuestion">Questions 4:</legend>
+                    <div>
+                        <p class="questionText" id="labelQuestion4">Bonjour question 4</p>
+                    </div>
+                    <div>
+                        <input type="radio" id="innputQuestion4Choix1" value="choix 1"/>
+                        <label class="labelQuestion" for="innputQuestion4Choix1" id="labelQuestion4choix1"> question 4 choix 1</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" id="innputQuestion4Choix2" value="choix 2"/>
+                        <label class="labelQuestion" for="innputQuestion4Choix2" id="labelQuestion4choix2"> question 4 choix 2</label>
+                    </div>
+    
+                    <div>
+                        <input type="radio" id="innputQuestion4Choix3" value="choix 3"/>
+                        <label class="labelQuestion" for="innputQuestion4Choix3" id="labelQuestion4choix3"> question 4 choix 3</label>
+                    </div>
+                    
+                </fieldset>
+    
+                <fieldset id="idFieldset5">
+                    <legend class="legendeQuestion">Questions 5:</legend>
+                    <div>
+                        <p class="questionText" id="labelQuestion5">Bonjour question 5</p>
+                    </div>
+                    <div>
+                        <input type="radio" id="innputQuestion5Choix1" value="choix 1"/>
+                        <label class="labelQuestion" for="innputQuestion5Choix1" id="labelQuestion5choix1"> question 5 choix 1</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" id="innputQuestion5Choix2" value="choix 2"/>
+                        <label class="labelQuestion" for="innputQuestion5Choix2" id="labelQuestion5choix2"> question 5 choix 2</label>
+                    </div>
+    
+                    <div>
+                        <input type="radio" id="innputQuestion5Choix3" value="choix 3"/>
+                        <label class="labelQuestion" for="innputQuestion5Choix3" id="labelQuestion5choix3"> question 5 choix 3</label>
+                    </div>
+                    
+                </fieldset>
+    
+            </div>
+        </div>
     </header>
     <!-- FOOTER -->
     <footer id="footer">
